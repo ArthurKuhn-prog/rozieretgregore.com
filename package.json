@@ -1,0 +1,17 @@
+{
+    "name":"rozier_and_gregore",
+    "dependencies": {
+      "nuxt": "^2.15.8"
+    },
+    "config":{
+      "nuxt":{
+        "host":"217.160.249.136",
+        "port":"3491"
+      }
+    },
+    "scripts":{
+      "dev":"nuxt",
+      "build":"nuxt build",
+      "start":"nuxt start"
+    }
+  }
