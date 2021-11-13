@@ -2,18 +2,23 @@ export default {
     head:{
         titleTemplate: "Rozier & Grégore - %s",
         htmlAttrs: {
-            lang: 'en'
+            lang: 'fr-FR'
         },
         bodyAttrs: {
             class:[
-                "my-style"
+                "w-screen p-0 m-0"
             ]
         },
         meta:[{
             charset:'utf-8'
         }]
     },
+    components: true,
     router:{
         prefetchLinks: false
-    }
+    },
+    plugins:['~/plugins/dataApi'],
+    buildModules:[
+        '@nuxtjs/tailwindcss'
+    ]
 }

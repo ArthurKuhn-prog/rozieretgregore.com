@@ -1,17 +1,18 @@
 {
-    "name":"rozier_and_gregore",
+    "name": "rozier_and_gregore",
     "dependencies": {
-      "nuxt": "^2.15.8"
+        "@nuxtjs/tailwindcss": "^4.2.1",
+        "nuxt": "^2.15.8"
     },
-    "config":{
-      "nuxt":{
-        "host":"217.160.249.136",
-        "port":"3491"
-      }
+    "config": {
+        "nuxt": {
+            "host": "127.0.0.1",
+            "port": "3492"
+        }
     },
-    "scripts":{
-      "dev":"nuxt",
-      "build":"nuxt build",
-      "start":"nuxt start"
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start"
     }
-  }
+}

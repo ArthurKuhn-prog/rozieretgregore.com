@@ -1,12 +1,14 @@
 <template>
     <div>
+        <Header />
         <video autoplay muted loop style="min-height: 100vh;
             min-width: 100%;
             z-index: -10;
             position: fixed;">
-            <source src="~/static/images/puitsDordogne_2.mp4" type="video/mp4">
+            <source src="~/assets/puitsDordogne_2.webm" type="video/webm">
         </video>
         <Nuxt />
+        <Footer />
     </div>
 </template>
 
@@ -17,6 +19,7 @@ export default{
 </script>
 
 <style>
+/*
 body {
     margin: 0;
     display:flex;
@@ -93,4 +96,5 @@ h2{
     font-size: 40pt;
     width: 30vw;
 }
+*/
 </style>

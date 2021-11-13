@@ -1,0 +1,23 @@
+[{
+    "contactID":0,
+    "about":{
+        "fr":{
+            "description":"Rozier & Grégore est un duo constitué blablabla"
+        },
+        "en":{
+            "description":"Rozier & Grégore is blablabla"
+        }
+    },
+    "links":[
+        {
+            "id":0,
+            "name":"insta",
+            "link": "https://www.instagram.com/rozieretgregore"
+        },
+        {
+            "id":1,
+            "name":"mail",
+            "link": "mailto:contact@rozieretgregore.com"
+        }
+    ]
+}]
