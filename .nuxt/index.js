@@ -82,7 +82,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"Rozier & Grégore - %s","htmlAttrs":{"lang":"fr-FR"},"bodyAttrs":{"class":["w-full p-0 m-0"]},"meta":[{"charset":"utf-8","hid":"charset"},{"name":"description","content":"This is the website of Rozier & Grégore, artist duo","hid":"description"}],"link":[],"style":[],"script":[]},
+    head: {"titleTemplate":"Rozier & Grégore - %s","htmlAttrs":{"lang":"fr-FR"},"bodyAttrs":{"class":["w-full p-0 m-0"]},"meta":[{"charset":"utf-8","hid":"charset"},{"name":"description","content":"This is the website of Rozier & Grégore, artist duo","hid":"description"}],"link":[{"rel":"preconnect","href":"https:\u002F\u002Ffonts.googleapis.com","hid":"font-preconnect"},{"rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com","hid":"font-preconnect"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap","hid":"font"}],"style":[],"script":[]},
 
     store,
     router,

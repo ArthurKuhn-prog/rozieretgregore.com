@@ -1,12 +1,23 @@
 <template>
     <div>
         <Header />
+            <div class="hidden lg:block">
             <video autoplay muted disablePictureInPicture loop style="min-height: 100vh;
             object-fit: cover;
             z-index: -10;
             position: fixed;">
             <source src="~/assets/puitsDordogne_2.webm" type="video/webm">
-        </video>
+            </video>
+            </div>
+
+            <div class="block lg:hidden">
+            <video autoplay muted disablePictureInPicture loop style="min-height: 100vh;
+            object-fit: cover;
+            z-index: -10;
+            position: fixed;">
+            <source src="~/assets/puitsDordogneINSTA.mp4" type="video/mp4">
+            </video>
+            </div>
         <Nuxt class="content"/>
         <Footer />
     </div>

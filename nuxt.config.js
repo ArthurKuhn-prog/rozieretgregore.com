@@ -19,6 +19,11 @@ export default {
                 content:'This is the website of Rozier & Grégore, artist duo',
                 hid:'description'
             }
+        ],
+        link:[
+            {rel: 'preconnect', href:'https://fonts.googleapis.com', hid:'font-preconnect'},
+            {rel: 'preconnect', href:'https://fonts.gstatic.com', hid:'font-preconnect'},
+            {rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap', hid:'font'},
         ]
     },
     components: true,

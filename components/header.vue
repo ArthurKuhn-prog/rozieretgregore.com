@@ -12,7 +12,7 @@
             </div>
 
             <div class="flex-1 text-right">
-                    <nuxt-link :to="`/projects/`" class="ml-4">
+                    <!--<nuxt-link :to="`/projects/`" class="ml-4">
                         <span v-if="lang === 'fr'">
                             Projets
                         </span>
@@ -40,7 +40,9 @@
                         <span v-else>
                             About
                         </span>
-                    </nuxt-link>
+                    </nuxt-link>-->
+                    <span v-if="lang === 'fr'">Site en construction</span>
+                    <span v-else>Website under construction</span>
             </div>
         </div>
 
@@ -50,6 +52,12 @@
             </div>
 
             <div>
+                <div class="m-5">
+                        <button type="button" v-on:click="setLang('fr')" class="mr-4">FR</button>
+                        |
+                        <button type="button" v-on:click="setLang('en')">EN</button>
+                    </div>
+                <!--
                 <button type="button" @click="showMenuMob()">☰</button>
                 
                 <div v-if="menuMob" class="absolute right-0 text-right bg-black">
@@ -96,7 +104,7 @@
                         |
                         <button type="button" v-on:click="setLang('en')">EN</button>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

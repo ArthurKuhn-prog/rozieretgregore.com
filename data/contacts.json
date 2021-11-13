@@ -2,21 +2,23 @@
     "contactID":0,
     "about":{
         "fr":{
-            "description":"Rozier & Grégore est un duo constitué blablabla"
+            "description":"Rozier & Grégore est un duo d'artiste constitué d'Arthur Kuhn et Paul Cottet-Dumoulin, tâchant d'envahir la réalité un histoire à la fois."
         },
         "en":{
-            "description":"Rozier & Grégore is blablabla"
+            "description":"Rozier & Grégore is an artist duo made up of Arthur Kuhn and Paul Cottet-Dumoulin claiming reality one story at a time."
         }
     },
     "links":[
         {
             "id":0,
-            "name":"insta",
+            "name":"instagram",
+            "textLink":"@rozieretgregore",
             "link": "https://www.instagram.com/rozieretgregore"
         },
         {
             "id":1,
             "name":"mail",
+            "textLink": "contact@rozieretgregore.com",
             "link": "mailto:contact@rozieretgregore.com"
         }
     ]

@@ -1,29 +1,29 @@
 <template>
     <div class="">
-        <div class="header content-part w-full h-screen flex justify-center items-center">
+        <div class="header flex content-part w-full h-screen justify-center items-center">
         </div>
 
         <div class="bg-black">
-            <div class="latest content-part w-full text-center">
-
-                <h2 class="p-8 text-8xl lg:text-4xl"><nuxt-link :to="`/projects/${latest.objectID}`">{{ latest[lang].title }}</nuxt-link></h2>
-
+            <div class="latest w-full h-max p-5 pb-8">
                 <div v-if="latest.media.length > 0" v-html="latest.media[0]"></div>
+
+                <div class="p-8">
+                    <h2 class="text-8xl leading-normal lg:text-4xl">{{ latest[lang].title }}</h2>
+                    <p class="text-5xl leading-relaxed lg:text-xl">{{ latest[lang].description }}</p>
+                </div>
             </div>
 
-            <!--<div class="actus h-96 p-8 mt-8" style="border-bottom: 2px solid white">
-                <div class="text-center p-8 text-8xl lg:text-4xl">
-                    <p v-if="lang === 'fr'">Dernières actualités</p>
-                    <p v-else>Latest news</p>
-                </div>
+            <div class=" w-full h-max p-5 pb-8 text-center text-8xl lg:text-4xl">
+                <p v-if="lang==='fr'">
+                    Ce site est encore en construction.<br>
+                    Retrouvez-y bientôt d'autres projets et actualités.
+                </p>
 
-                <div class=" grid grid-cols-3">
-                    <div v-for="actu in actus" :key="actu.actuID">
-                        <h2 class="text-5xl lg:text-xl">{{ actu[lang].title }}</h2>
-                        <h2>{{ actu[lang].description }}</h2>
-                    </div>
-                </div>
-            </div>-->
+                <p v-else>
+                    This website is still under construction.<br>
+                    Come back soon for more projects and news.
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -49,7 +49,7 @@ export default {
             return this.$store.state.lang
         },
         latest(){
-            const latest = projects[projects.length -1]
+            const latest = projects[1]
             return latest
         }
     }
