@@ -1,8 +1,9 @@
 <template>
-    <div class="contact">
+    <div class="contact content-part flex justify-around items-center">
         <p>{{ contacts.about[lang].description }}</p>
-        <div v-for="link in contacts.links" :key="link.id">
-            <p><a :href="link.link">{{ link.name }}</a></p>
+
+        <div>
+            <p v-for="link in contacts.links" :key="link.id" :href="link.link"><a>{{ link.name }}</a></p>
         </div>
     </div>
 </template>

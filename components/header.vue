@@ -1,44 +1,44 @@
 <template>
-    <div class="nav-top_menu w-screen h-auto flex justify-between p-2 bg-white fixed">
-        <div>
-            <button type="button" v-on:click="setLang('fr')">FR</button>
+    <div class="nav-top_menu w-full h-auto flex justify-between p-2 bg-white fixed top-0">
+        <div class="flex-1">
+            <button type="button" v-on:click="setLang('fr')" class="mr-4">FR</button>
             <button type="button" v-on:click="setLang('en')">EN</button>
         </div>
 
-        <div>
+        <div class="flex-none">
             <h1><nuxt-link to="/">Rozier & Grégore</nuxt-link></h1>
         </div>
 
-        <div>
-            <nuxt-link :to="`/projects/`">
-                <span v-if="lang === 'fr'">
-                    Projets
-                </span>
+        <div class="flex-1 text-right">
+                <nuxt-link :to="`/projects/`" class="ml-4">
+                    <span v-if="lang === 'fr'">
+                        Projets
+                    </span>
 
-                <span v-else>
-                    Projects
-                </span>
-            </nuxt-link>
+                    <span v-else>
+                        Projects
+                    </span>
+                </nuxt-link>
 
-            <nuxt-link :to="`/actus`">
-                <span v-if="lang === 'fr'">
-                    Actualités
-                </span>
+                <nuxt-link :to="`/actus`" class="ml-4">
+                    <span v-if="lang === 'fr'">
+                        Actualités
+                    </span>
 
-                <span v-else>
-                    News
-                </span>
-            </nuxt-link>
+                    <span v-else>
+                        News
+                    </span>
+                </nuxt-link>
 
-            <nuxt-link :to="`/about`">
-                <span v-if="lang === 'fr'">
-                    À propos
-                </span>
+                <nuxt-link :to="`/about`" class="ml-4">
+                    <span v-if="lang === 'fr'">
+                        À propos
+                    </span>
 
-                <span v-else>
-                    About
-                </span>
-            </nuxt-link>
+                    <span v-else>
+                        About
+                    </span>
+                </nuxt-link>
         </div>
     </div>
 </template>

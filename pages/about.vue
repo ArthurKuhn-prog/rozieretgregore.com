@@ -1,11 +1,16 @@
 <template>
-    <div>
-        <div>
-            {{ about[lang] }}
-        </div>
+    <div >
+        <div class="content-part">
+            <h2 v-if="lang === 'fr'">À propos</h2>
+                <h2 v-else>About</h2>
 
-        <div v-for="link in contacts.links" :key="link.id">
-            <p><a :href="link.link">{{ link.name }}</a></p>
+            <div>
+                {{ about[lang] }}
+            </div>
+
+            <div v-for="link in contacts.links" :key="link.id">
+                <p><a :href="link.link">{{ link.name }}</a></p>
+            </div>
         </div>
     </div>
 </template>

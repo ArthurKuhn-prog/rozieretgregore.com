@@ -1,9 +1,10 @@
 <template>
     <div>
-        <div class="project_grid" v-for="project, index in projects" :key="index">
-            <h2><nuxt-link :to="`/projects/${project.objectID}`">{{ project[lang].title }}</nuxt-link></h2>
+        <div class="project_grid content-part" >
+            <h2 v-if="lang === 'fr'">Projets</h2>
+            <h2 v-else>Projects</h2>
 
-            <p> {{ project[lang].description }} </p>
+            <h2 v-for="project, index in projects" :key="index"><nuxt-link :to="`/projects/${project.objectID}`">{{ project[lang].title }}</nuxt-link></h2>
         </div>
     </div>
 </template>

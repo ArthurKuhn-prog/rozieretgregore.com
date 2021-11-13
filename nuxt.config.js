@@ -6,12 +6,20 @@ export default {
         },
         bodyAttrs: {
             class:[
-                "w-screen p-0 m-0"
+                "w-full p-0 m-0"
             ]
         },
-        meta:[{
-            charset:'utf-8'
-        }]
+        meta:[
+            {
+                charset:'utf-8',
+                hid:'charset'
+            },
+            {
+                name:'description',
+                content:'This is the website of Rozier & Grégore, artist duo',
+                hid:'description'
+            }
+        ]
     },
     components: true,
     router:{
@@ -20,5 +28,6 @@ export default {
     plugins:['~/plugins/dataApi'],
     buildModules:[
         '@nuxtjs/tailwindcss'
-    ]
+    ],
+    css:['~/assets/main']
 }
