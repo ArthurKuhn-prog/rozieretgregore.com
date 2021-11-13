@@ -1,15 +1,15 @@
 <template>
     <div>
         <div class="content-part">
-            <h1>{{ project[lang].title }}</h1>
+            <h1 class="text-center">{{ project[lang].title }}</h1>
 
             <div v-html="project.media[0]"></div>
 
             <p> {{ project[lang].description }} </p>
 
-            <div>
+            <!--<div>
                 <img v-for="picture, index in project.images" :key="index" :src="picture">       
-            </div>
+            </div>-->
         </div>
     </div>
 </template>

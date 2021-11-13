@@ -1,29 +1,29 @@
 <template>
     <div class="">
-        <div class="header content-part w-full h-screen flex justify-center items-center text-center text-8xl lg:text-5xl">
-            <h1>Rozier & Grégore</h1>
+        <div class="header content-part w-full h-screen flex justify-center items-center">
         </div>
 
-        <div class="latest content-part w-full text-center">
-            <p v-if="lang === 'fr'">Dernier projet</p>
-            <p v-else>Latest project</p>
+        <div class="bg-black">
+            <div class="latest content-part w-full text-center">
 
-            <h2><nuxt-link :to="`/projects/${latest.objectID}`">{{ latest[lang].title }}</nuxt-link></h2>
-            <p> {{ latest[lang].description }} </p>
+                <h2 class="p-8 text-8xl lg:text-4xl"><nuxt-link :to="`/projects/${latest.objectID}`">{{ latest[lang].title }}</nuxt-link></h2>
 
-            <div v-if="latest.media.length > 0" v-html="latest.media[0]"></div>
-        </div>
-
-        <div class="actus content-part">
-            <p v-if="lang === 'fr'">Dernières actualités</p>
-            <p v-else>Latest news</p>
-
-            <div class=" grid grid-cols-3">
-                <div v-for="actu in actus" :key="actu.actuID">
-                    <h2>{{ actu[lang].title }}</h2>
-                    <h2>{{ actu[lang].description }}</h2>
-                </div>
+                <div v-if="latest.media.length > 0" v-html="latest.media[0]"></div>
             </div>
+
+            <!--<div class="actus h-96 p-8 mt-8" style="border-bottom: 2px solid white">
+                <div class="text-center p-8 text-8xl lg:text-4xl">
+                    <p v-if="lang === 'fr'">Dernières actualités</p>
+                    <p v-else>Latest news</p>
+                </div>
+
+                <div class=" grid grid-cols-3">
+                    <div v-for="actu in actus" :key="actu.actuID">
+                        <h2 class="text-5xl lg:text-xl">{{ actu[lang].title }}</h2>
+                        <h2>{{ actu[lang].description }}</h2>
+                    </div>
+                </div>
+            </div>-->
         </div>
     </div>
 </template>

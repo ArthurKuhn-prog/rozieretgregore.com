@@ -1,5 +1,5 @@
 <template>
-    <div class="contact content-part flex justify-around items-center">
+    <div class="contact flex justify-around items-center bg-black">
         <p>{{ contacts.about[lang].description }}</p>
 
         <div>
