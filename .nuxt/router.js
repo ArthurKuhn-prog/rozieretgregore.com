@@ -4,11 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1c1cf53c = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _e7219a42 = () => interopDefault(import('../pages/actus.vue' /* webpackChunkName: "pages/actus" */))
-const _34dddb5e = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
-const _7a471d46 = () => interopDefault(import('../pages/projects/_id.vue' /* webpackChunkName: "pages/projects/_id" */))
-const _3bd4d001 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4cc124d2 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _85d93b16 = () => interopDefault(import('../pages/actus.vue' /* webpackChunkName: "pages/actus" */))
+const _1b86d488 = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
+const _3e5058f0 = () => interopDefault(import('../pages/projects/_id.vue' /* webpackChunkName: "pages/projects/_id" */))
+const _6c78ff97 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -23,23 +23,23 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _1c1cf53c,
+    component: _4cc124d2,
     name: "about"
   }, {
     path: "/actus",
-    component: _e7219a42,
+    component: _85d93b16,
     name: "actus"
   }, {
     path: "/projects",
-    component: _34dddb5e,
+    component: _1b86d488,
     name: "projects"
   }, {
     path: "/projects/:id",
-    component: _7a471d46,
+    component: _3e5058f0,
     name: "projects-id"
   }, {
     path: "/",
-    component: _3bd4d001,
+    component: _6c78ff97,
     name: "index"
   }],
 

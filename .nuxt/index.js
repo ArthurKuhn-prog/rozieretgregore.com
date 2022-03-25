@@ -13,7 +13,7 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_6ca1bc32 from 'nuxt_plugin_plugin_6ca1bc32' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_ac030ede from 'nuxt_plugin_plugin_ac030ede' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_dataApi_3cd42dda from 'nuxt_plugin_dataApi_3cd42dda' // Source: ../plugins/dataApi (mode: 'all')
 
 // Component: <ClientOnly>
@@ -82,7 +82,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"Rozier & Grégore - %s","htmlAttrs":{"lang":"fr-FR"},"bodyAttrs":{"class":["w-full p-0 m-0"]},"meta":[{"charset":"utf-8","hid":"charset"},{"name":"description","content":"This is the website of Rozier & Grégore, artist duo","hid":"description"}],"link":[{"rel":"preconnect","href":"https:\u002F\u002Ffonts.googleapis.com","hid":"font-preconnect"},{"rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com","hid":"font-preconnect"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap","hid":"font"}],"style":[],"script":[]},
+    head: {"titleTemplate":"Rozier & Grégore - %s","htmlAttrs":{"lang":"fr-FR"},"bodyAttrs":{"class":["w-full p-0 m-0"]},"meta":[{"charset":"utf-8","hid":"charset"},{"name":"description","content":"This is the website of Rozier & Grégore, artist duo","hid":"description"},{"name":"keywords","content":"rozier et gregore","hid":"description"}],"link":[{"rel":"preconnect","href":"https:\u002F\u002Ffonts.googleapis.com","hid":"font-preconnect"},{"rel":"preconnect","href":"https:\u002F\u002Ffonts.gstatic.com","hid":"font-preconnect"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap","hid":"font"}],"style":[],"script":[]},
 
     store,
     router,
@@ -211,8 +211,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_6ca1bc32 === 'function') {
-    await nuxt_plugin_plugin_6ca1bc32(app.context, inject)
+  if (typeof nuxt_plugin_plugin_ac030ede === 'function') {
+    await nuxt_plugin_plugin_ac030ede(app.context, inject)
   }
 
   if (typeof nuxt_plugin_dataApi_3cd42dda === 'function') {

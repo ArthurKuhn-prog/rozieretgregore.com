@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/about.js": "pages/about.js",
+    "pages/actus.js": "pages/actus.js",
+    "pages/index.js": "pages/index.js",
+    "pages/projects/_id.js": "pages/projects/_id.js",
+    "pages/projects/index.js": "pages/projects/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/about.js": "pages/about.js.map",
+    "pages/actus.js": "pages/actus.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/projects/_id.js": "pages/projects/_id.js.map",
+    "pages/projects/index.js": "pages/projects/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

@@ -18,6 +18,11 @@ export default {
                 name:'description',
                 content:'This is the website of Rozier & Grégore, artist duo',
                 hid:'description'
+            },
+            {
+                name:'keywords',
+                content:'rozier et gregore',
+                hid:'description'
             }
         ],
         link:[

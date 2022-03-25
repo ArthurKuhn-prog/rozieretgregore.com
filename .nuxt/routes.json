@@ -2,36 +2,36 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/var/www/rozieretgregore.local/pages/about.vue",
+    "component": "/var/www/rozieretgregore.com/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_1c1cf53c"
+    "_name": "_4cc124d2"
   },
   {
     "name": "actus",
     "path": "/actus",
-    "component": "/var/www/rozieretgregore.local/pages/actus.vue",
+    "component": "/var/www/rozieretgregore.com/pages/actus.vue",
     "chunkName": "pages/actus",
-    "_name": "_e7219a42"
+    "_name": "_85d93b16"
   },
   {
     "name": "projects",
     "path": "/projects",
-    "component": "/var/www/rozieretgregore.local/pages/projects/index.vue",
+    "component": "/var/www/rozieretgregore.com/pages/projects/index.vue",
     "chunkName": "pages/projects/index",
-    "_name": "_34dddb5e"
+    "_name": "_1b86d488"
   },
   {
     "name": "projects-id",
     "path": "/projects/:id",
-    "component": "/var/www/rozieretgregore.local/pages/projects/_id.vue",
+    "component": "/var/www/rozieretgregore.com/pages/projects/_id.vue",
     "chunkName": "pages/projects/_id",
-    "_name": "_7a471d46"
+    "_name": "_3e5058f0"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/var/www/rozieretgregore.local/pages/index.vue",
+    "component": "/var/www/rozieretgregore.com/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_3bd4d001"
+    "_name": "_6c78ff97"
   }
 ]
