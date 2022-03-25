@@ -12,7 +12,7 @@ module.exports = {
         user: 'akuhn',
         host: ['217.160.249.136'],
         ref: 'origin/master',
-        repo: 'git@ArthurKuhn-prog/rozieretgregore.com',
+        repo: 'git@ArthurKuhn-prog/rozieretgregore.com.git',
         ssh_options: ['ForwardAgent=yes'],
         path: '/var/www/rozieretgregore.com',
         'post-deploy' : 'yarn && yarn build && pm2 startOrRestart ecosystem.config.js --env production'
