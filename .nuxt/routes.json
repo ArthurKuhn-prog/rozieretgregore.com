@@ -3,35 +3,30 @@
     "name": "about",
     "path": "/about",
     "component": "/var/www/rozieretgregore.com/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_4cc124d2"
+    "chunkName": "pages/about"
   },
   {
     "name": "actus",
     "path": "/actus",
     "component": "/var/www/rozieretgregore.com/pages/actus.vue",
-    "chunkName": "pages/actus",
-    "_name": "_85d93b16"
+    "chunkName": "pages/actus"
   },
   {
     "name": "projects",
     "path": "/projects",
     "component": "/var/www/rozieretgregore.com/pages/projects/index.vue",
-    "chunkName": "pages/projects/index",
-    "_name": "_1b86d488"
+    "chunkName": "pages/projects/index"
   },
   {
     "name": "projects-id",
     "path": "/projects/:id",
     "component": "/var/www/rozieretgregore.com/pages/projects/_id.vue",
-    "chunkName": "pages/projects/_id",
-    "_name": "_3e5058f0"
+    "chunkName": "pages/projects/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/rozieretgregore.com/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_6c78ff97"
+    "chunkName": "pages/index"
   }
 ]
