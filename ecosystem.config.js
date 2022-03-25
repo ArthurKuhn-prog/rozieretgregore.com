@@ -9,7 +9,7 @@ module.exports = {
     deploy : {
       // "production" is the environment name
       production : {
-          key: '~/.ssh/id_ed25519.pub',
+          key: '~/.ssh/id_ed25519',
         user: 'akuhn',
         host: ['217.160.249.136'],
         ref: 'origin/master',
