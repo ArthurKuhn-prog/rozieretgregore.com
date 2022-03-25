@@ -10,7 +10,7 @@ module.exports = {
       // "production" is the environment name
       production : {
           key: '~/.ssh/deploy_keys/id_rsa.pub',
-        user: 'akuhn',
+        user: 'git',
         host: ['217.160.249.136'],
         ref: 'origin/master',
         repo: 'git@ArthurKuhn-prog/rozieretgregore.com.git',
